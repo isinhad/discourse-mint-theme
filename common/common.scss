@@ -33,7 +33,7 @@
     border-radius: var(--mint-border-radius);
     @include mint-card-bg;
     padding: 2em 2em 1em;
-    border-top: 8px solid #ED6A5A;
+    border-top: 8px solid #ED6A5A !important;
     box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
       0 12px 90px 0 rgba(133, 255, 103, 0.1);
     .header-wrapper {
@@ -47,11 +47,11 @@
     }
     .btn-more {
       color: var(--secondary);
-      background: #ED6A5A;
+      background: #ED6A5A !important;
       transition: all 0.3s linear;
       border-radius: var(--mint-border-radius);
       text-transform: uppercase;
-      border: 1px solid #ED6A5A;
+      border: 1px solid #ED6A5A !important;
       &:hover {
         color: var(--secondary);
         background: var(--tertiary-hover);
@@ -84,7 +84,7 @@
       0 12px 90px 0 rgba(133, 255, 103, 0.1);
     padding: 2em;
     @include mint-card-bg;
-    border-top: 8px solid #ED6A5A;
+    border-top: 8px solid #ED6A5A !important;
     margin-top: 0.8em;
   }
 }
@@ -153,16 +153,16 @@ a {
 
 #create-topic {
   color: var(--secondary);
-  background: #ED6A5A;
+  background: #ED6A5A !important;
   transition: all 0.3s linear;
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
-  border: 2px solid #ED6A5A;
+  border: 2px solid #ED6A5A !important;
   .fa {
     color: var(--secondary);
   }
   &:hover {
-    background: #ED6A5A;
+    background: #ED6A5A !important;
     color: var(--secondary);
     box-shadow: var(--mint-hover-shadow);
     transition: all 0.3s linear;
@@ -174,7 +174,7 @@ a {
 }
 
 .open .grippie {
-  background: #ED6A5A;
+  background: #ED6A5A !important;
 }
 
 .options.toolbar-popup-menu-options {
@@ -183,7 +183,7 @@ a {
     border-radius: none;
     border: none;
     &:hover {
-      background: #ED6A5A;
+      background: #ED6A5A !important;
       border-radius: 0;
     }
   }
@@ -197,10 +197,10 @@ a {
 
 .menu-panel .panel-body-bottom .btn {
   svg {
-    color: #ED6A5A;
+    color: #ED6A5A !important;
   }
   &:hover {
-    background: #ED6A5A;
+    background: #ED6A5A !important;
     color: var(--secondary);
   }
 }
@@ -212,22 +212,22 @@ a {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
     background-color: transparent;
-    color: #ED6A5A;
-    border: 1px dashed #ED6A5A;
+    color: #ED6A5A !important;
+    border: 1px dashed #ED6A5A !important;
   }
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
-    background: #ED6A5A;
+    background: #ED6A5A !important;
     color: var(--secondary);
-    border: 1px solid #ED6A5A;
+    border: 1px solid #ED6A5A !important;
   }
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-  background: #ED6A5A;
+  background: #ED6A5A !important;
   border-radius: var(--mint-border-radius);
-  border: 1px solid #ED6A5A;
+  border: 1px solid #ED6A5A !important;
   color: var(--secondary);
   svg {
     color: var(--secondary);
@@ -279,11 +279,11 @@ a {
 
 .btn-default {
   color: var(--secondary);
-  background: #ED6A5A;
+  background: #ED6A5A !important;
   transition: all 0.3s linear;
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
-  border: 1px solid #ED6A5A;
+  border: 1px solid #ED6A5A !important;
   .fa {
     color: var(--secondary);
   }
@@ -331,7 +331,7 @@ a:hover {
 .email-template,
 .admin-container {
   .nav-pills > li a.active {
-    background: #ED6A5A;
+    background: #ED6A5A !important;
     color: var(--secondary);
   }
   .btn-primary {
@@ -344,7 +344,7 @@ a:hover {
   background: linear-gradient(
     270deg,
     var(--tertiary-medium) 0%,
-    #ED6A5A 100%
+    #ED6A5A !important 100%
   );
 }
 
@@ -363,11 +363,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
-    background: #ED6A5A;
+    background: #ED6A5A !important;
     color: var(--secondary);
   }
   .search-advanced-filters {
-    border: 1px dashed #ED6A5A;
+    border: 1px dashed #ED6A5A !important;
   }
 }
 
