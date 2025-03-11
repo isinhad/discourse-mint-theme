@@ -6,7 +6,7 @@
     "mint-light": {
       "primary": "454545",
       "secondary": "F6FBFC",
-      "tertiary": "4F8A7C",
+      "tertiary": "ED6A5A",
       "header_background": "ffffff",
       "header_primary": "111111",
       "selected": "e3efec",
@@ -15,7 +15,7 @@
     "mint-dark": {
       "primary": "e0e0e0",
       "secondary": "2d2d2d",
-      "tertiary": "4F8A7C",
+      "tertiary": "ED6A5A",
       "header_background": "202020",
       "header_primary": "e0e0e0",
       "highlight": "b2b235",
