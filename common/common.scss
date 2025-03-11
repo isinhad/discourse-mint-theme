@@ -4,11 +4,11 @@
 
 .d-editor-textarea-wrapper,
 .select-kit-header {
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
 }
 
 :root {
-  --d-input-border-radius: var(--mint-border-radius);
+  --d-input-border-radius: 10px;
   --d-nav-underline-height: 0;
 }
 
@@ -30,7 +30,7 @@
   padding: 0;
   .col {
     position: relative;
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     @include mint-card-bg;
     padding: 2em 2em 1em;
     border-top: 8px solid #ED6A5A !important;
@@ -49,7 +49,7 @@
       color: var(--secondary);
       background: #ED6A5A !important;
       transition: all 0.3s linear;
-      border-radius: var(--mint-border-radius);
+      border-radius: 10px;
       text-transform: uppercase;
       border: 1px solid #ED6A5A !important;
       &:hover {
@@ -65,7 +65,7 @@
 }
 
 .navigation-categories .search-banner {
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   height: 350px;
   box-sizing: border-box;
   padding: 2.5em 0 3em;
@@ -79,7 +79,7 @@
 
 .navigation-topics {
   .container.list-container {
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
       0 12px 90px 0 rgba(133, 255, 103, 0.1);
     padding: 2em;
@@ -92,7 +92,7 @@
 .search-widget .search-context {
   padding: 10px;
   background-color: var(--tertiary-medium);
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
 }
 
 .search-menu .search-context .show-help {
@@ -113,7 +113,7 @@ a {
 
 .category-boxes {
   grid-gap: 2em;
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   .category-box {
     width: 100%;
     margin: 0;
@@ -121,7 +121,7 @@ a {
     border: none;
     border-top: 8px solid;
     background: var(--secondary);
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     box-shadow: 0px 2px 3px 0px rgba(2, 47, 57, 0.14);
     .category-box-inner {
       border: none;
@@ -144,7 +144,7 @@ a {
 }
 
 .category-list-item.category {
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   border-right: 1px solid var(--primary-low) !important;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
   margin: 0 0.59em 2em 0.59em;
@@ -155,7 +155,7 @@ a {
   color: var(--secondary);
   background: #ED6A5A !important;
   transition: all 0.3s linear;
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   text-transform: uppercase;
   border: 2px solid #ED6A5A !important;
   .fa {
@@ -166,7 +166,7 @@ a {
     color: var(--secondary);
     box-shadow: var(--mint-hover-shadow);
     transition: all 0.3s linear;
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     .fa {
       color: var(--secondary);
     }
@@ -191,7 +191,7 @@ a {
 
 .list-controls .combo-box .combo-box-header {
   border: none;
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   @include mint-card-bg;
 }
 
@@ -207,16 +207,16 @@ a {
 
 .nav-pills li a {
   border: 1px solid transparent;
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   &:hover {
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     transition: all 0.3s linear;
     background-color: transparent;
     color: #ED6A5A !important;
     border: 1px dashed #ED6A5A !important;
   }
   &.active {
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     transition: all 0.3s linear;
     background: #ED6A5A !important;
     color: var(--secondary);
@@ -226,7 +226,7 @@ a {
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
   background: #ED6A5A !important;
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   border: 1px solid #ED6A5A !important;
   color: var(--secondary);
   svg {
@@ -281,7 +281,7 @@ a {
   color: var(--secondary);
   background: #ED6A5A !important;
   transition: all 0.3s linear;
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   text-transform: uppercase;
   border: 1px solid #ED6A5A !important;
   .fa {
@@ -290,7 +290,7 @@ a {
 }
 
 .btn-primary {
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
 }
 
 .discourse-no-touch .btn-danger:hover {
@@ -298,7 +298,7 @@ a {
 }
 
 .create {
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
 }
 
 .select-kit .select-kit-row.is-selected {
@@ -308,7 +308,7 @@ a {
 .modal-inner-container,
 .edit-category-footer {
   .btn-primary {
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
   }
 }
 
@@ -335,12 +335,12 @@ a:hover {
     color: var(--secondary);
   }
   .btn-primary {
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
   }
 }
 
 .custom-search-banner-wrap {
-  border-radius: var(--mint-border-radius);
+  border-radius: 10px;
   background: linear-gradient(
     270deg,
     var(--tertiary-medium) 0%,

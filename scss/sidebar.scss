@@ -11,7 +11,7 @@
       0 12px 90px 0 rgba(100, 24, 20, 0.1);
     margin-top: 1em;
     border-top: 8px solid #ED6A5A !important;
-    border-radius: var(--mint-border-radius);
+    border-radius: 10px;
     height: calc(
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
     );

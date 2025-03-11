@@ -4,14 +4,7 @@
   @media (prefers-color-scheme: light) {
     background: var(--header_background);
   }
-}
-
-:root {
-  --mint-border-radius: 10px;
-  --mint-hover-shadow: 4px 4px var(--tertiary-high);
-  --mint-color-mint: #ED6A5A !important !important;
-  --mint-color-blue: #FF897A !important;
-}
+};
 
 $color-square-gradient: linear-gradient(
   4deg,
