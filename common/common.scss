@@ -218,9 +218,9 @@ a {
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
-    background: var(--mint-color-mint);
+    background: #ED6A5A;
     color: var(--secondary);
-    border: 1px solid var(--mint-color-mint);
+    border: 1px solid #ED6A5A;
   }
 }
 
