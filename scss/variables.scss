@@ -9,8 +9,8 @@
 :root {
   --mint-border-radius: 10px;
   --mint-hover-shadow: 4px 4px var(--tertiary-high);
-  --mint-color-mint: #ED6A5A;
-  --mint-color-blue: #FF897A;
+  --mint-color-mint: #ED6A5A !important;
+  --mint-color-blue: #FF897A !important;
 }
 
 $color-square-gradient: linear-gradient(
